@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "id": "example_mod",
+  "id": "boraultra",
   "version": "${version}",
-  "name": "Example Mod",
+  "name": "Hack & Slash Treasure Hunting",
   "description": "This is an example description! Tell everyone what your mod is about!",
   "authors": [
     "Me!"
@@ -16,9 +16,9 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod",
-      "net.fabricmc.example.ResourceReloadListenerTestMod",
-      "net.fabricmc.example.BuiltinResourcePackTestMod"
+      "BoraUltra.minecraft.hasth.HaSTH",
+      "BoraUltra.minecraft.hasth.BuiltinResourcePackTestMod",
+      "BoraUltra.minecraft.hasth.ResourceReloadListenerTestMod"
     ]
   },
   "mixins": [
