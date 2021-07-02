@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"# #",
+		"# #"
+	],
+	"key": {
+		"#": {
+			"item": "hasth:adamantite_ingot"
+		}
+	},
+	"result": {
+		"item": "hasth:adamantite_boots",
+		"count": 1
+	}
+}

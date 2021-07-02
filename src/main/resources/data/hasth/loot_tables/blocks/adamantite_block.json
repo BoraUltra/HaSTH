@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:block",
+	"pools": [
+		{
+			"rolls": 1.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "hasth:adamantite_block"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:match_tool"
+				}
+			]
+		}
+	]
+}

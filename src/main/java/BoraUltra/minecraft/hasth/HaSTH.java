@@ -1,19 +1,19 @@
 package BoraUltra.minecraft.hasth;
 
-import BoraUltra.minecraft.hasth.Blocks.TungstenBlock;
+import BoraUltra.minecraft.hasth.Blocks.AdamantiteBlock;
 import BoraUltra.minecraft.hasth.Dimentions.Dimension;
-import BoraUltra.minecraft.hasth.Items.Armor.TungstenArmorItem;
-import BoraUltra.minecraft.hasth.Items.Tool.TungstenToolItem;
-import BoraUltra.minecraft.hasth.Items.misc.TungstenMiscItem;
+import BoraUltra.minecraft.hasth.Items.Armor.AdamantiteArmorItem;
+import BoraUltra.minecraft.hasth.Items.Tool.AdamantiteToolItem;
+import BoraUltra.minecraft.hasth.Items.misc.AdamantiteMiscItem;
 import net.fabricmc.api.ModInitializer;
 
 public class HaSTH implements ModInitializer {
 	@Override
 	public void onInitialize() {
-		TungstenBlock.register();
-		TungstenArmorItem.register();
-		TungstenToolItem.register();
-		TungstenMiscItem.register();
+		AdamantiteBlock.register();
+		AdamantiteArmorItem.register();
+		AdamantiteToolItem.register();
+		AdamantiteMiscItem.register();
 		Dimension.setDimension();
 	}
 }
